@@ -3,10 +3,9 @@ name: Deploy Wiki Pages to Server
 on:
   push:
     branches:
-      - main
-  # Optional: run daily at midnight UTC
+      - master
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *'  # Daily at midnight UTC
   workflow_dispatch:
 
 jobs:
@@ -17,16 +16,22 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Deploy to Deployment Server
+      - name: Deploy to Server via SSH
         uses: appleboy/ssh-action@v0.1.5
         with:
           host: ${{ secrets.DEPLOY_SERVER_HOST }}
           username: ${{ secrets.DEPLOY_SERVER_USER }}
           key: ${{ secrets.DEPLOY_SERVER_SSH_KEY }}
-          # Optionally, if your server uses a non-standard SSH port, set port: '2222'
+          # If using a custom SSH port, uncomment the next line:
+          # port: ${{ secrets.DEPLOY_SERVER_PORT }}
           script: |
-            cd /path/to/your/deployment/folder
-            # Pull the latest changes from Git
-            git pull
-            # Rebuild and restart the Docker Compose services
+            cd /home/deploy/MyWiki  # Adjust to the location where the repo is cloned on your server
+            git pull origin master
+            
+            # Assuming your docker-compose.yml is in /home/deploy/MyWiki and it mounts the Hugo site content from ./site:
+            # Copy or move the updated Hugo pages into the proper directory (adjust paths as needed)
+            cp -r hugo/posts/* /root/hugo/site/content/postsp
+            cp -r hugo/projects/* /root/hugo/site/content/projects/
+            
+            # Rebuild and restart the Docker Compose stack
             docker-compose up -d --build
