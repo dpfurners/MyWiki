@@ -2,7 +2,7 @@
 title: Testing Git
 description: Test
 published: true
-date: 2025-03-02T14:48:38.029Z
+date: 2025-03-02T14:54:00.547Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-02T14:48:38.029Z
