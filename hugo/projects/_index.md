@@ -8,11 +8,6 @@ editor: markdown
 dateCreated: 2025-03-01T13:48:56.659Z
 ---
 
----
-title: "Projects"
-type: page
----
-
 ## Hello, my projects are:
 
 1. [Tatooine](/projects/tatooine/)
