@@ -1,0 +1,32 @@
+name: Deploy Wiki Pages to Server
+
+on:
+  push:
+    branches:
+      - main
+  # Optional: run daily at midnight UTC
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Deploy to Deployment Server
+        uses: appleboy/ssh-action@v0.1.5
+        with:
+          host: ${{ secrets.DEPLOY_SERVER_HOST }}
+          username: ${{ secrets.DEPLOY_SERVER_USER }}
+          key: ${{ secrets.DEPLOY_SERVER_SSH_KEY }}
+          # Optionally, if your server uses a non-standard SSH port, set port: '2222'
+          script: |
+            cd /path/to/your/deployment/folder
+            # Pull the latest changes from Git
+            git pull
+            # Rebuild and restart the Docker Compose services
+            docker-compose up -d --build
