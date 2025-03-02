@@ -8,9 +8,4 @@ editor: markdown
 dateCreated: 2025-03-01T13:47:31.374Z
 ---
 
----
-title: Title
-type: page
----
-
 # This is a template that will be updated in the future
