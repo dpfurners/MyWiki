@@ -28,6 +28,4 @@ jobs:
             cd /root/MyWiki  # Adjust to the location where the repo is cloned on your server
             git pull origin master
             
-            # Assuming your docker-compose.yml is in /home/deploy/MyWiki and it mounts the Hugo site content from ./site:
-            # Copy or move the updated Hugo pages into the proper directory (adjust paths as needed)
             cp -r hugo/* /root/hugo/site/content/
