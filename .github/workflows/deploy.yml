@@ -22,10 +22,11 @@ jobs:
           host: ${{ secrets.DEPLOY_SERVER_HOST }}
           username: ${{ secrets.DEPLOY_SERVER_USER }}
           key: ${{ secrets.DEPLOY_SERVER_SSH_KEY }}
-          # If using a custom SSH port, uncomment the next line:
-          # port: ${{ secrets.DEPLOY_SERVER_PORT }}
           script: |
-            cd /root/MyWiki  # Adjust to the location where the repo is cloned on your server
+            cd /root/MyWiki
             git pull origin master
-            
+
             cp -r hugo/* /root/hugo/site/content/
+
+            # Run the migration script
+            python3 /root/hugo/migrate.py
