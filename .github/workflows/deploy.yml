@@ -27,6 +27,3 @@ jobs:
             git pull origin master
 
             cp -r hugo/* /root/hugo/site/content/
-
-            # Run the migration script
-            python3 /root/hugo/migrate.py
