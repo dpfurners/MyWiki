@@ -2,7 +2,7 @@
 title: About Me
 description: Find out more about me
 published: true
-date: 2025-03-10T13:44:32.823Z
+date: 2025-03-10T13:44:54.830Z
 tags: about, me, myself, introduction
 editor: markdown
 dateCreated: 2025-03-10T12:36:04.195Z
@@ -31,6 +31,14 @@ Elective Courses:
 
 # Career
 
+## **Civil Service**
+
+- **Österreichisches Rotes Kreuz, Bezirksstelle Innsbruck Land**  
+  *Duration: 07.2024 – 03.2025 (9 months)*  
+  *Role: Betreuter Fahrdienst (BFD) – Driver*  
+  *Description: Responsible for transporting clients from their homes to various care facilities across the Innsbruck Land region. Managed daily routes covering between 100 and 300 km, ensuring safe and timely arrivals.*  
+  *More information: [Rotes Kreuz Innsbruck Land](https://www.roteskreuz.at/tirol/innsbruck-land/home)*
+
 ## **Internships during High School**
 
 - **DVT – Daten-Verarbeitung-Tirol GmbH**  
@@ -43,13 +51,3 @@ Elective Courses:
   ***Role:** Installations and Building Technician (Installations- und Gebäudetechniker)*  
   ***Description:** Assisted in the installation of building systems, including water, heating, and ventilation systems. Gained hands-on experience in setting up and maintaining various technical installations.*
   
-## **Civil Service**
-
-- **Österreichisches Rotes Kreuz, Bezirksstelle Innsbruck Land**  
-  *Duration: 07.2024 – 03.2025 (9 months)*  
-  *Role: Betreuter Fahrdienst (BFD) – Driver*  
-  *Description: Responsible for transporting clients from their homes to various care facilities across the Innsbruck Land region. Managed daily routes covering between 100 and 300 km, ensuring safe and timely arrivals.*  
-  *More information: [Rotes Kreuz Innsbruck Land](https://www.roteskreuz.at/tirol/innsbruck-land/home)*
-
-
-
