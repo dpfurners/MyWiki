@@ -2,7 +2,7 @@
 title: About Me
 description: Find out more about me
 published: true
-date: 2025-03-10T13:44:54.830Z
+date: 2025-03-10T13:45:14.418Z
 tags: about, me, myself, introduction
 editor: markdown
 dateCreated: 2025-03-10T12:36:04.195Z
@@ -23,8 +23,8 @@ Hello, my name is **Daniel Pfurner**, and I am **19 years old**. I live in the b
 ## **Bundes-Realgymnasium Adolf-Pichler-Platz**
 *09/2015 – 07/2019*  
 Elective Courses:  
-- **School Emergency Service (Schulsanitätsdienst)**  
-- **Computer Science (Informatik)**
+- School Emergency Service (Schulsanitätsdienst)
+- Computer Science (Informatik)
 
 ## **Volksschule**
 *09/2011 – 07/2015*
