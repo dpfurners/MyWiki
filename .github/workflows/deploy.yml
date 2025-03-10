@@ -27,3 +27,7 @@ jobs:
             git pull origin master
 
             cp -r hugo/* /root/hugo/site/content/
+
+
+            find /root/hugo/site/content -type f -name "*.md" -exec sed -i '/^published:/d' {} \;
+
