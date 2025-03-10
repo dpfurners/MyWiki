@@ -2,7 +2,7 @@
 title: About Me
 description: Find out more about me
 published: true
-date: 2025-03-10T13:27:03.842Z
+date: 2025-03-10T13:27:51.537Z
 tags: about, me, myself, introduction
 editor: markdown
 dateCreated: 2025-03-10T12:36:04.195Z
@@ -16,11 +16,11 @@ Hello, my name is **Daniel Pfurner**, and I am **19 years old**. I live in the b
 
 # Education
 
-## **[Competence Centre HTL Anichstraße](https://htlinn.ac.at/ausbildung/elektronik-technische-informatik/hoehere-abteilung)**
+## **Competence Centre HTL Anichstraße**
 *09/2019 – 06/2024*  
 *Field of Study: Electronics and Technical Informatics*
 
-## **[Bundes-Realgymnasium Adolf-Pichler-Platz](https://brg-app.tsn.at/)**
+## **Bundes-Realgymnasium Adolf-Pichler-Platz**
 *09/2015 – 07/2019*  
 Elective Courses:  
 - **School Emergency Service (Schulsanitätsdienst)**  
