@@ -28,8 +28,4 @@ jobs:
 
             cp -r hugo/* /root/hugo/site/content/
 
-
-            find /root/hugo/site/content -type f -name "*.md" -exec sed -i '/^published:/d' {} \;
-
-            find /root/hugo/site/content/posts -type f -name "*.md" -exec bash -c 'if ! grep -q "^type:" "$1"; then sed -i "0,/^---$/s/^---$/&\ntype: post/" "$1"; fi' _ {} \;
-            find /root/hugo/site/content/projects -type f -name "*.md" -exec bash -c 'if ! grep -q "^type:" "$1"; then sed -i "0,/^---$/s/^---$/&\ntype: page/" "$1"; fi' _ {} \;
+            /root/hugo/changes.sh
