@@ -2,7 +2,7 @@
 title: About Me
 description: Find out more about me
 published: true
-date: 2025-03-10T13:45:14.418Z
+date: 2025-03-10T13:45:57.940Z
 tags: about, me, myself, introduction
 editor: markdown
 dateCreated: 2025-03-10T12:36:04.195Z
@@ -11,7 +11,7 @@ dateCreated: 2025-03-10T12:36:04.195Z
 Hello, my name is **Daniel Pfurner**, and I am **19 years old**. I live in the beautiful region of **Tyrol, Austria**. Currently, I am serving in **civil service** with the **Red Cross Austria**. Alongside being a helpful person, I enjoy:
 
 - Upgrading my room and home with **smart appliances**  
-- Creating **programs** you never knew you needed  
+- **Automating** my life using mainly **Python**
 - Making **music** and aspiring to be a DJ one day 🎧
 
 # Education
