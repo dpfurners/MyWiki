@@ -2,7 +2,7 @@
 title: About Me
 description: Find out more about me
 published: true
-date: 2025-03-10T13:45:57.940Z
+date: 2025-03-10T15:39:45.114Z
 tags: about, me, myself, introduction
 editor: markdown
 dateCreated: 2025-03-10T12:36:04.195Z
@@ -12,7 +12,6 @@ Hello, my name is **Daniel Pfurner**, and I am **19 years old**. I live in the b
 
 - Upgrading my room and home with **smart appliances**  
 - **Automating** my life using mainly **Python**
-- Making **music** and aspiring to be a DJ one day 🎧
 
 # Education
 
